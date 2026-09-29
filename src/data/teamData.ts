@@ -1,0 +1,233 @@
+import { TeamMember } from '../types';
+
+export const teamMembers: TeamMember[] = [
+  {
+    id: 'kamboyi-rapheal',
+    name: 'Kamboyi Rapheal',
+    studentNo: '2510928',
+    role: 'Team Leader / Project Management + Frontend',
+    rolePurpose: 'Coordinate the project, keep the team aligned with assignment requirements, and contribute directly to the frontend.',
+    responsibilities: [
+      'Create and maintain the overall project plan and coordinate task allocation',
+      'Establish the Jira Epic, workflow, deadlines, and task assignments',
+      'Monitor progress and ensure members produce required Jira and GitHub evidence',
+      'Coordinate integration of individual sections into the final landing page',
+      'Contribute actual frontend code and coordinate final consistency checks',
+      'Review code changes, resolve merge conflicts, and lead presentation readiness'
+    ],
+    expectedDeliverable: 'Project coordination + assigned frontend implementation + Jira/GitHub management evidence',
+    githubUsername: 'rapheal-kamboyi',
+    githubUrl: 'https://github.com/rapheal-kamboyi',
+    jiraTaskKey: 'SCH-01',
+    gitBranch: 'SCH-01-project-setup-integration',
+    pullRequestUrl: 'https://github.com/group6-bse2201/attendqr-landing/pull/1',
+    reviewer: 'Chimbokaila Remmy',
+    avatarSeed: 'Kamboyi'
+  },
+  {
+    id: 'daka-wesley',
+    name: 'Daka Wesley',
+    studentNo: '2511586',
+    role: 'Landing Page — Hero / Home Section',
+    rolePurpose: 'Build the first section users see and establish the visual introduction to the QR attendance system.',
+    responsibilities: [
+      'Translate agreed design direction into the Hero/Home visual architecture',
+      'Create hero heading, supporting value proposition, and primary call-to-action',
+      'Implement semantic section markup with accessible heading hierarchy',
+      'Style typography, responsive spacing, and visual layout',
+      'Integrate visual assets including lecture hall dynamic QR projection showcase',
+      'Test hero responsiveness on mobile, tablet, and widescreen desktop displays'
+    ],
+    expectedDeliverable: 'Complete responsive Hero/Home section integrated into the landing page',
+    githubUsername: 'wesley-daka',
+    githubUrl: 'https://github.com/wesley-daka',
+    jiraTaskKey: 'SCH-02',
+    gitBranch: 'SCH-02-hero-home-section',
+    pullRequestUrl: 'https://github.com/group6-bse2201/attendqr-landing/pull/2',
+    reviewer: 'Kamboyi Rapheal',
+    avatarSeed: 'Wesley'
+  },
+  {
+    id: 'silungwe-lanzi',
+    name: 'Silungwe Lanzi',
+    studentNo: '2511587',
+    role: 'Problem + Proposed System Sections / Frontend',
+    rolePurpose: 'Explain why the project is needed and clearly demonstrate how the proposed QR attendance solution addresses the problem.',
+    responsibilities: [
+      'Build the Problem section detailing registry challenges and manual roll-call flaws',
+      'Build the Proposed System section introducing the dynamic QR-based architecture',
+      'Communicate the 9-step system flow (lecturer session → QR code → student scan → verified submission)',
+      'Design clean problem-solution comparative matrices and process diagrams',
+      'Maintain site-wide visual language and accessibility standards',
+      'Participate in pull request reviews and coordinate with technical leads'
+    ],
+    expectedDeliverable: 'Fully implemented and responsive Problem + Proposed System sections with Git/Jira evidence',
+    githubUsername: 'lanzi-silungwe',
+    githubUrl: 'https://github.com/lanzi-silungwe',
+    jiraTaskKey: 'SCH-03',
+    gitBranch: 'SCH-03-problem-proposed-system',
+    pullRequestUrl: 'https://github.com/group6-bse2201/attendqr-landing/pull/3',
+    reviewer: 'Zimba Nathan',
+    avatarSeed: 'Lanzi'
+  },
+  {
+    id: 'zimba-nathan',
+    name: 'Zimba Nathan',
+    studentNo: '2510936',
+    role: 'Features & Benefits Section',
+    rolePurpose: 'Communicate what the system can do and the practical value it provides to students, lecturers, and management.',
+    responsibilities: [
+      'Build the Features section showcasing Dynamic QR Sessions and Instant Verification',
+      'Detail Timestamped Records and Duplicate Submission Prevention safeguards',
+      'Build the multi-stakeholder Benefits section (Students, Lecturers, University Registry)',
+      'Design clear feature/benefit cards with responsive layout and clean typography',
+      'Harmonize feature terminology with the proposed system architecture',
+      'Submit work via task-linked branch and execute code reviews'
+    ],
+    expectedDeliverable: 'Responsive Features + Benefits section with consistent UI components and contribution evidence',
+    githubUsername: 'nathan-zimba',
+    githubUrl: 'https://github.com/nathan-zimba',
+    jiraTaskKey: 'SCH-04',
+    gitBranch: 'SCH-04-features-benefits-section',
+    pullRequestUrl: 'https://github.com/group6-bse2201/attendqr-landing/pull/4',
+    reviewer: 'Salinga Mwansa',
+    avatarSeed: 'Nathan'
+  },
+  {
+    id: 'salinga-mwansa',
+    name: 'Salinga Mwansa',
+    studentNo: '2510963',
+    role: 'Team Members Section',
+    rolePurpose: 'Create the section that introduces the full Group 6 team and provides the required individual information.',
+    responsibilities: [
+      'Create structured Team section introducing all 10 members with full profile cards',
+      'Document each member\'s student ID, assigned role, and core responsibilities',
+      'Include working, verified GitHub profile links and Jira task references',
+      'Design responsive multi-column grid layout adapted for mobile and desktop viewports',
+      'Verify accuracy of student numbers and contribution deliverables with team leader',
+      'Maintain code hygiene and submit pull request for peer review'
+    ],
+    expectedDeliverable: 'Complete responsive Team section with accurate member information and functional GitHub links',
+    githubUsername: 'mwansa-salinga',
+    githubUrl: 'https://github.com/mwansa-salinga',
+    jiraTaskKey: 'SCH-05',
+    gitBranch: 'SCH-05-team-members-section',
+    pullRequestUrl: 'https://github.com/group6-bse2201/attendqr-landing/pull/5',
+    reviewer: 'Kamaloni Ackson',
+    avatarSeed: 'Mwansa'
+  },
+  {
+    id: 'kamaloni-ackson',
+    name: 'Kamaloni Ackson',
+    studentNo: '2300780',
+    role: 'Navigation / Footer / Contact',
+    rolePurpose: 'Build the site\'s navigation and closing/contact elements so users can move through the landing page and access relevant contact information.',
+    responsibilities: [
+      'Build accessible main header navigation following strict 3-zone contract',
+      'Implement smooth anchor scrolling to all page sections with active indicators',
+      'Build functional Contact section with validated form inputs and instant submission feedback',
+      'Build institutional footer containing course details, Jira links, and academic attribution',
+      'Test internal section anchors and external URLs across desktop and mobile',
+      'Coordinate anchor IDs with all section authors for flawless navigation'
+    ],
+    expectedDeliverable: 'Functional responsive navigation + contact + footer components with tested links',
+    githubUsername: 'ackson-kamaloni',
+    githubUrl: 'https://github.com/ackson-kamaloni',
+    jiraTaskKey: 'SCH-06',
+    gitBranch: 'SCH-06-nav-footer-contact',
+    pullRequestUrl: 'https://github.com/group6-bse2201/attendqr-landing/pull/6',
+    reviewer: 'Banda Madalitso',
+    avatarSeed: 'Ackson'
+  },
+  {
+    id: 'banda-madalitso',
+    name: 'Banda Madalitso',
+    studentNo: '2120992',
+    role: 'Responsive Design / Mobile UI',
+    rolePurpose: 'Ensure the complete website remains usable, readable, and visually consistent across different screen sizes.',
+    responsibilities: [
+      'Audit the entire landing page across mobile, tablet, and widescreen desktop breakpoints',
+      'Eliminate horizontal overflow, text clipping, and broken flex/grid containers',
+      'Implement responsive navigation drawer and touch-friendly controls (min 44px targets)',
+      'Fine-tune responsive font sizing, card spacing, and container padding',
+      'Perform cross-browser and cross-device visual consistency checks',
+      'Document responsive fixes in Jira bug tickets and submit pull requests'
+    ],
+    expectedDeliverable: 'Responsive optimisation across the full website, supported by testing evidence and commits',
+    githubUsername: 'madalitso-banda',
+    githubUrl: 'https://github.com/madalitso-banda',
+    jiraTaskKey: 'SCH-07',
+    gitBranch: 'SCH-07-responsive-mobile-ui',
+    pullRequestUrl: 'https://github.com/group6-bse2201/attendqr-landing/pull/7',
+    reviewer: 'Nathan Nansenga',
+    avatarSeed: 'Madalitso'
+  },
+  {
+    id: 'nathan-nansenga',
+    name: 'Nathan Nansenga',
+    studentNo: '2510923',
+    role: 'Visual Assets / UI Styling + Frontend',
+    rolePurpose: 'Support the visual identity of the site and improve consistency across individual sections while contributing frontend code.',
+    responsibilities: [
+      'Establish cohesive visual design language, color palette, and typographic pairing',
+      'Prepare and optimize system visuals, process diagrams, and high-fidelity mockups',
+      'Enforce component visual consistency across cards, buttons, and section dividers',
+      'Integrate domain-appropriate iconography and visual hierarchy',
+      'Collaborate with section owners to ensure graphics render seamlessly across viewports',
+      'Produce clean CSS utility tokens and document styling guidelines'
+    ],
+    expectedDeliverable: 'Approved visual assets + UI styling contribution + identifiable frontend code',
+    githubUsername: 'nathan-nansenga',
+    githubUrl: 'https://github.com/nathan-nansenga',
+    jiraTaskKey: 'SCH-08',
+    gitBranch: 'SCH-08-visual-assets-styling',
+    pullRequestUrl: 'https://github.com/group6-bse2201/attendqr-landing/pull/8',
+    reviewer: 'Daka Wesley',
+    avatarSeed: 'Nansenga'
+  },
+  {
+    id: 'chimbokaila-remmy',
+    name: 'Chimbokaila Remmy',
+    studentNo: '2300084',
+    role: 'Testing / QA + Frontend',
+    rolePurpose: 'Identify and help fix defects before submission while maintaining a genuine frontend development contribution.',
+    responsibilities: [
+      'Create structured QA testing checklist covering navigation, forms, and responsive states',
+      'Verify all external GitHub links, email triggers, and internal anchor jumps',
+      'Identify visual and functional defects and log them systematically in Jira',
+      'Implement code fixes for identified responsive and form validation issues',
+      'Test interactive prototype simulator under various student ID and duplicate conditions',
+      'Execute final regression pass prior to final deployment and presentation'
+    ],
+    expectedDeliverable: 'QA/testing evidence + documented fixes + identifiable frontend contribution',
+    githubUsername: 'remmy-chimbokaila',
+    githubUrl: 'https://github.com/remmy-chimbokaila',
+    jiraTaskKey: 'SCH-09',
+    gitBranch: 'SCH-09-testing-qa-fixes',
+    pullRequestUrl: 'https://github.com/group6-bse2201/attendqr-landing/pull/9',
+    reviewer: 'Kamboyi Rapheal',
+    avatarSeed: 'Remmy'
+  },
+  {
+    id: 'chileshe-kondwani',
+    name: 'Chileshe Kondwani',
+    studentNo: '2511602',
+    role: 'Technical Documentation & Quality Integration / Frontend',
+    rolePurpose: 'Fulfill full 10-member group roster requirement, maintain architecture documentation, and assist with traceability integration.',
+    responsibilities: [
+      'Prepare assignment submission documentation and comprehensive README setup guide',
+      'Map system requirements to Agile sprint deliverables and acceptance criteria',
+      'Review system architecture specifications against university registry constraints',
+      'Assist in frontend integration of the Jira and Git traceability matrix',
+      'Verify adherence to BSE2201 presentation guidelines and submission criteria'
+    ],
+    expectedDeliverable: 'Architecture documentation + Git/Jira traceability integration + frontend support',
+    githubUsername: 'kondwani-chileshe',
+    githubUrl: 'https://github.com/kondwani-chileshe',
+    jiraTaskKey: 'SCH-10',
+    gitBranch: 'SCH-10-docs-traceability-matrix',
+    pullRequestUrl: 'https://github.com/group6-bse2201/attendqr-landing/pull/10',
+    reviewer: 'Silungwe Lanzi',
+    avatarSeed: 'Kondwani'
+  }
+];
